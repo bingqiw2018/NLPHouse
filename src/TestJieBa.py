@@ -4,7 +4,7 @@ Created on 2018年6月20日
 
 @author: bingqiw
 '''
-import jieba
+import jieba.analyse
 import jieba.posseg
 import jieba.posseg as jp
 from src.service.NLService import NLService, GrammerUtil

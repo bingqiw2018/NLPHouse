@@ -10,7 +10,6 @@ import jieba
 import jieba.posseg as jp
 import jieba.analyse as ja
 from gensim import corpora, models, similarities
-from twisted import words
 from src.utils import DateUtils as du
 from BaseService import BaseService
 
